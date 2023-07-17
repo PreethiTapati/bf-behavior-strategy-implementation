@@ -1,4 +1,4 @@
-// #todo
+'use strict';
 
 'use strict';
 
@@ -10,8 +10,9 @@ try {
 }
 
 console.log('- throw new error -');
+console.log('- throw new error -');
 try {
-    throw __;
+    throw new Error('ReferenceError');
 } catch (err) {
     console.error(err);
 

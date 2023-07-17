@@ -1,4 +1,4 @@
-// #todo
+import { findSmallestNumber } from './find-smallest-number.js';
 
 import { findSmallestNumber } from './find-smallest-number.js';
 

@@ -1,4 +1,4 @@
-// #todo
+import { sumNumbers } from './sum-numbers.js';
 
 import { sumNumbers } from './sum-numbers.js';
 

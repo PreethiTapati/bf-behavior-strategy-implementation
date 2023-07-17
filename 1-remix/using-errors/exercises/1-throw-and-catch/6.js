@@ -1,4 +1,4 @@
-// #todo
+'use strict';
 
 'use strict';
 
@@ -14,7 +14,7 @@ try {
 
 console.log('- throw new error -');
 try {
-    throw __;
+    throw new Error('TypeError');
 } catch (err) {
     console.error(err);
 

@@ -1,4 +1,4 @@
-// #todo
+'use strict';
 
 'use strict';
 
@@ -11,8 +11,9 @@ try {
 }
 
 console.log('- throw new error -');
+console.log('- throw new error -');
 try {
-    throw __;
+    throw new Error('ReferenceError');
 } catch (err) {
     console.error(err);
 
@@ -21,4 +22,9 @@ try {
         err.message === "Cannot access 'turtle' before initialization",
         'message fail',
     );
+  console.assert(err.name === 'ReferenceError', 'name fail');
+  console.assert(
+    err.message === "Cannot access 'turtle' before initialization",
+    'message fail',
+  );
 }
